@@ -1,6 +1,5 @@
-<p align="center" id="logo" style="background-color: #FF75B7; background-image: linear-gradient(43deg, #E14551
- 0%, #FF75B7 100%)">
-  <img src="https://ik.imagekit.io/manuelalferez/piclab/logo_W6_5T1DQlX.png?updatedAt=1635879859227" alt="Logo" width="30">
+<p align="center">
+  <img src="https://ik.imagekit.io/manuelalferez/piclab/logo-markdown_XHy-Hln42P.png?updatedAt=1635881428678" alt="Logo" height="full" width="full">
    <h3 align="center">Piclab</h3>
 </p>
 
@@ -10,7 +9,7 @@
     <a href="https://github.com/manuelalferez/piclab/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/manuelalferez/piclab">View Demo</a>
+    <a href="https://piclab-monogram.vercel.app">Website</a>
     ·
     <a href="https://github.com/manuelalferez/piclab/issues">Report Bug</a>
     ·
@@ -30,6 +29,7 @@
     <li><a href="#License">License</a></li>
   </ol>
 </details>
+
 ## Description
 
 A description of your project follows. A good description is clear, short, and to the point. Describe the importance of your project, and what it does.
