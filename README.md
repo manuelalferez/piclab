@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ik.imagekit.io/manuelalferez/piclab/logo-markdown_XHy-Hln42P.png?updatedAt=1635881428678" alt="Logo" height="full" width="full">
+  <img src="https://ik.imagekit.io/manuelalferez/piclab/tr:w-0.6/favicon_lmN60sdtzR3.png?updatedAt=1636018893371" alt="Logo">
    <h3 align="center">Piclab</h3>
 </p>
 
