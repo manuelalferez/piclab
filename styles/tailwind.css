@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'Idlewild';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/Idlewild.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/Inter.woff') format('woff');
+}
+
+@tailwind utilities;
