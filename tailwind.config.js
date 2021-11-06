@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   mode: 'jit',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
@@ -44,6 +46,17 @@ module.exports = {
       '2xl': '1440px',
       // => @media (min-width: 1536px) { ... }
     },
+    colors: {
+      ai: '#262626',
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      gray: colors.trueGray,
+      indigo: colors.indigo,
+      red: colors.rose,
+      yellow: colors.amber,
+    },
   },
   variants: {
     extend: {
@@ -54,5 +67,6 @@ module.exports = {
   plugins: [],
   corePlugins: {
     fontFamily: true,
+    backgroundColor: true,
   },
 };

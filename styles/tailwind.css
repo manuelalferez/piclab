@@ -15,4 +15,18 @@
   src: local(''), url('/fonts/Inter.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Inter';
+  font-style: extralight;
+  font-weight: 200;
+  src: local(''), url('/fonts/Inter-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: thin;
+  font-weight: 100;
+  src: local(''), url('/fonts/Inter-Thin.woff') format('woff');
+}
+
 @tailwind utilities;

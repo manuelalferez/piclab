@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
+import Ai from '../components/Ai';
 import { client } from '../config/prismic-configuration';
 
-export default function Home({ hero }) {
+export default function Home({ hero, ai }) {
   return (
     <div className="">
       <Head>
@@ -12,6 +13,7 @@ export default function Home({ hero }) {
 
       <main className="">
         <Hero hero={hero} />
+        <Ai ai={ai} />
       </main>
 
       <footer className="">Footer</footer>
@@ -21,10 +23,12 @@ export default function Home({ hero }) {
 
 export const getStaticProps = async () => {
   const hero = await client.getSingle('hero');
+  const ai = await client.getSingle('ai');
   console.log('props: ', hero);
   return {
     props: {
       hero,
+      ai,
     },
   };
 };
