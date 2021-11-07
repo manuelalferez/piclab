@@ -15,7 +15,7 @@ export default function Home({ hero, ai, usecases, economy, economyNews }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="overflow-hidden">
         <Hero hero={hero} />
         <Ai ai={ai} />
         <UseCases usecases={usecases} />

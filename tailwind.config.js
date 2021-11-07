@@ -48,6 +48,8 @@ module.exports = {
     },
     colors: {
       ai: '#262626',
+      herocolor: '#E84F5A',
+      linecolor: '#CDCDCD',
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,
@@ -62,6 +64,7 @@ module.exports = {
     extend: {
       fontFamily: ['hover', 'focus'],
       textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+      margin: ['responsive', 'hover'],
     },
   },
   plugins: [],
