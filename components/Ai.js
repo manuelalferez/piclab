@@ -10,7 +10,7 @@ export default function ai({ ai }) {
         <p className="text-sm">{ai.data.description[0].text}</p>
       </div>
       <img src={ai.data.graph.url} className="hidden md:inline absolute md:bottom-0 lg:w-10/12 lg:left-0 z-10" />
-      <img src={ai.data.background.url} className="absolute h-screen" />
+      <img src={ai.data.background.url} className="absolute w-screen h-screen" />
     </div>
   );
 }
