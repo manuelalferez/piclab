@@ -34,7 +34,6 @@ export const getStaticProps = async () => {
   const economyNews = await client.query(Prismic.Predicates.at('document.type', 'news'));
   const beta = await client.getSingle('beta');
 
-  console.log(beta);
   return {
     props: {
       hero,
