@@ -1,5 +1,4 @@
 export default function Economy({ pageInfo, news }) {
-  console.log(pageInfo);
   return (
     <div className="bg-ai text-white h-screen relative w-screen">
       <div className="absolute z-10 lg:top-80">
