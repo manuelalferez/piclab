@@ -49,6 +49,7 @@ module.exports = {
     colors: {
       ai: '#262626',
       herocolor: '#E84F5A',
+      betacolor: '#000000',
       linecolor: '#CDCDCD',
       transparent: 'transparent',
       current: 'currentColor',

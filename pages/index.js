@@ -4,10 +4,10 @@ import Ai from '../components/Ai';
 import { client } from '../config/prismic-configuration';
 import UseCases from '../components/Usecases';
 import Prismic from 'prismic-javascript';
-import Footer from '../components/Footer';
 import Economy from '../components/Economy';
+import Beta from '../components/Beta';
 
-export default function Home({ hero, ai, usecases, economy, economyNews }) {
+export default function Home({ hero, ai, usecases, economy, economyNews, beta }) {
   return (
     <div className="">
       <Head>
@@ -20,10 +20,8 @@ export default function Home({ hero, ai, usecases, economy, economyNews }) {
         <Ai ai={ai} />
         <UseCases usecases={usecases} />
         <Economy pageInfo={economy} news={economyNews} />
-        <Footer />
+        <Beta beta={beta} />
       </main>
-
-      <footer className="">Footer</footer>
     </div>
   );
 }
@@ -34,8 +32,9 @@ export const getStaticProps = async () => {
   const usecases = await client.query(Prismic.Predicates.at('document.type', 'usecase'));
   const economy = await client.getSingle('economy');
   const economyNews = await client.query(Prismic.Predicates.at('document.type', 'news'));
+  const beta = await client.getSingle('beta');
 
-  console.log(usecases);
+  console.log(beta);
   return {
     props: {
       hero,
@@ -43,6 +42,7 @@ export const getStaticProps = async () => {
       usecases,
       economy,
       economyNews,
+      beta,
     },
   };
 };
